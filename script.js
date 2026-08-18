@@ -44,5 +44,6 @@ document.getElementById('bookingForm')?.addEventListener('submit', (e) => {
   const status = document.getElementById('formStatus');
 
   status.innerHTML =
-    `Your request is ready. <a href="https://wa.me/254714417226?text=${text}" target="_blank" rel="noopener">Send it on WhatsApp →</a>`;
-});
+  `Your request is ready.<br><br>` +
+  `<a href="https://wa.me/254714417226?text=${text}" target="_blank" rel="noopener">Send Request to PJ's Cozzy Homes →</a><br><br>` +
+  `<a href="https://wa.me/254719755490?text=${text}" target="_blank" rel="noopener">Send Request to Booking Partner →</a>`;
